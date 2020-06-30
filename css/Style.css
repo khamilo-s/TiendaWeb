@@ -1,0 +1,173 @@
+body{
+    font-family: serif;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario{
+    margin: 650px;
+    background: white;
+    margin-top: 250px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;     
+}
+
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid gray;
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: gray;
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: darkblue;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 600;
+}
+
+.link:hover{
+    color: cadetblue;
+}
+
+.nav-enlace{
+    font-size: 110%;
+    display: inline-block;
+    background: firebrick;
+    color: white;
+    margin: 5px;
+    padding: 10px 100px;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+nav{
+    text-align: center;
+}
+
+.barra-usuario{
+    font-size: 100%;
+    display: inline-block;
+    background: firebrick;
+    color: white;
+    margin: 1px;
+    padding: 2px 25px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+#navegador{
+    text-align: right;
+}
+#Titulonegro{
+    color: black;
+    text-align: center;  
+    font-size: 400%;
+    font-family: serif;
+}
+
+#Tituloblanco{
+    color: white;
+    text-align: center;  
+    font-size: 400%;
+    font-family: serif;
+}
+
+#Sub_Titulos{
+    border: 10px solid;
+    font-size: 250%;
+    color:white;
+    background-color: red;
+    text-align: center;
+}
+
+#Mini_titulo{
+    color: white;
+    font-size: 250%;
+    font-family: serif;
+    text-align: center;
+}
+
+#Catalogo{
+    color: white;
+    text-align: center;  
+    font-size: 400%;
+    font-family: serif;
+}
+
+#Parrafo1{
+    margin-top: 8%;
+    margin-bottom: 10%;
+    color: white;
+    font-size: 150%;
+}
+
+#margenes{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.Agregar{
+    border: none;
+    width: 10%;
+    color: white;
+    font-size: 20px;
+    background: red;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.centro{
+    text-align: center;
+}
+
+#precio{
+    font-size: 100px;
+    color: white;
+}
